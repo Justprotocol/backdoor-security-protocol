@@ -1,15 +1,32 @@
-# Backdoor: The AI-Native Sui Security Firewall 🛡️💧
+#  Backdoor
 
-An automated, AI-powered transaction guard built for the Sui Blockchain. Backdoor automatically intercepts dangerous dApp interactions, transaction approvals, and wallet connections, using Gemini 1.5 Pro to warn users of vulnerabilities before they sign.
+> **Tagline:** Secure your Sui assets from backdoors.
 
-## 🚀 Key Features
-- **Auto-Intercept Firewall:** Automatically pops up the moment a user attempts to connect a wallet or approve a transaction on a Sui dApp.
-- **Sui Move Object Analysis:** Gemini 1.5 Pro instantly scans the target Move packages and transaction blocks to see exactly what assets are being moved.
-- **Plain-English Warnings:** Translates complex Sui Move execution paths into: *"If you sign this, this site can take your Sui NFTs."*
-- **Real-Time Telemetry:** Sends fallback threat alerts to users via Telegram if a protocol they hold assets in changes state on-chain.
+##  Project Overview
+Backdoor is an AI-powered security assistant built to protect users in the Sui ecosystem. The application helps users proactively scan for smart contract vulnerabilities and risky token approvals before it's too late. Additionally, it allows users to analyze drained wallets to understand how compromises happened and trace stolen funds across the network.
 
-## 🛠️ Tech Stack
-- **AI Engine:** Google Gemini 1.5 Pro
-- **Blockchain Target:** Sui Network (Move Language)
-- **Backend Framework:** FastAPI (Python) using Sui Python SDK wrappers
-- **Frontend Interfacing:** Chrome Extension Manifest V3 (Content Scripts for auto-popups)
+## 🌐 Live Application Link
+Since this project is built entirely using Google AI Studio's powerful prototyping tools, you can interact with the live application directly here:
+ **[Launch Backdoor on Google AI Studio](https://aistudio.google.com/apps/6342b4ff-7658-4bb1-8759-3a1baf9f196c?showAssistant=true&showPreview=true)**
+
+---
+
+##  Key Features
+*   **Proactive Vulnerability Scanning:** Scan Sui smart contracts and token approvals for hidden risks before interacting with them.
+*   **Drain Analysis:** Upload or paste historical data from a compromised wallet to break down exactly how the exploit occurred.
+*   **Fund Tracing Assistant:** Receive guidance on tracking stolen assets and identifying malicious addresses on the Sui blockchain.
+*   **Sui-Centric Intelligence:** Tailored specifically around Sui network primitives, object ownership models, and Move language security.
+
+##  How It's Built
+*   **Platform:** Google AI Studio
+*   **Core Model:** Gemini 1.5 Pro / Flash (optimized with custom system instructions for Web3 & Move language security)
+*   **Interface:** Hosted web preview via Google AI Studio Apps.
+
+---
+
+##  Hackathon Quick Start (For Judges)
+1. Click the **Live Application Link** above.
+2. In the AI assistant panel, you can test Backdoor with prompts like:
+   * *"Analyze this suspicious Sui transaction log for potential exploits..."*
+   * *"What are the common attack vectors for a Move smart contract token approval?"*
+   * *"Help me trace funds that were transferred out of this compromised wallet address."*
