@@ -28,3 +28,11 @@ Since this project is built entirely using Google AI Studio's powerful prototypi
 ## 🚀 Hackathon Quick Start (For Judges)
 1. Click the **Live Application Link** above.
 2. Open our [Sample Test Cases Guide](docs/sample_test_cases.md) to find copy-and-paste examples to test the AI's response accuracy!
+
+
+---
+
+🤝 AI Collaboration & Acknowledgments
+This project was proudly developed in partnership with Google's AI ecosystem:
+*   **Google AI Studio:** Used as the primary IDE, sandbox environment, and rapid prototyping platform.
+*   **Gemini 1.5 Pro / Flash:** Acted as the core security co-pilot, assisting with Web3 Move language threat analysis and system prompt engineering.
