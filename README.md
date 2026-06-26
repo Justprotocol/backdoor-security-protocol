@@ -2,12 +2,14 @@
 
 > **Tagline:** Secure your Sui assets from backdoors.
 
-##  Project Overview
-Backdoor is an AI-powered security assistant built to protect users in the Sui ecosystem. The application helps users proactively scan for smart contract vulnerabilities and risky token approvals before it's too late. Additionally, it allows users to analyze drained wallets to understand how compromises happened and trace stolen funds across the network.
+![Backdoor App Screenshot](screenshot.png)
 
-## 🌐 Live Application Link
+##  Project Overview
+Backdoor is an AI-powered Web3 security assistant built specifically for the Sui ecosystem. It empowers users to proactively scan for smart contract vulnerabilities and risky token approvals before interacting with decentralized applications. If a breach has already occurred, Backdoor helps users analyze compromised wallets to pinpoint how the exploit happened and trace stolen assets across the network, turning reactive loss into proactive security.
+
+##  Live Application Link
 Since this project is built entirely using Google AI Studio's powerful prototyping tools, you can interact with the live application directly here:
- **[Launch Backdoor on Google AI Studio](https://aistudio.google.com/apps/6342b4ff-7658-4bb1-8759-3a1baf9f196c?showAssistant=true&showPreview=true)**
+👉 **[Launch Backdoor on Google AI Studio](https://aistudio.google.com/apps/6342b4ff-7658-4bb1-8759-3a1baf9f196c?showAssistant=true&showPreview=true)**
 
 ---
 
@@ -17,16 +19,12 @@ Since this project is built entirely using Google AI Studio's powerful prototypi
 *   **Fund Tracing Assistant:** Receive guidance on tracking stolen assets and identifying malicious addresses on the Sui blockchain.
 *   **Sui-Centric Intelligence:** Tailored specifically around Sui network primitives, object ownership models, and Move language security.
 
-##  How It's Built
-*   **Platform:** Google AI Studio
-*   **Core Model:** Gemini 1.5 Pro / Flash (optimized with custom system instructions for Web3 & Move language security)
-*   **Interface:** Hosted web preview via Google AI Studio Apps.
+##  Repository Contents
+*   `system_prompt.txt`: The core AI architecture, system rules, and security logic running behind the app.
+*   `docs/sample_test_cases.md`: Pre-made test prompts for hackathon judges to copy-paste and try out.
 
 ---
 
-##  Hackathon Quick Start (For Judges)
+## 🚀 Hackathon Quick Start (For Judges)
 1. Click the **Live Application Link** above.
-2. In the AI assistant panel, you can test Backdoor with prompts like:
-   * *"Analyze this suspicious Sui transaction log for potential exploits..."*
-   * *"What are the common attack vectors for a Move smart contract token approval?"*
-   * *"Help me trace funds that were transferred out of this compromised wallet address."*
+2. Open our [Sample Test Cases Guide](docs/sample_test_cases.md) to find copy-and-paste examples to test the AI's response accuracy!
