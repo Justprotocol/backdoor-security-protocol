@@ -1,0 +1,5 @@
+some wallet address to test the app with
+8thfHrqPYhKNVvqhavEuBydiCsPh2VJjscQcYkv5oGBg
+53FpWcH5t3GXn7TCQRSNiPaBK3NPLutJ2yCqcLHTmp3D
+FDnyUg7PMwsaYu95RRsZ39GWqY846CAaMHLJx4oXdr6x
+C1Q1WdBYsV78Rbq4rwJzXxcx7wUV8HbduzkAJL7drkcm
