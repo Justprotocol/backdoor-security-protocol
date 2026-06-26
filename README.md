@@ -2,7 +2,7 @@
 
 > **Tagline:** Secure your Sui assets from backdoors.
 
-![Backdoor App Screenshot](screenshot.png)
+![Backdoor App Screenshot]([screenshot.png](https://github.com/Justprotocol/backdoor-security-protocol/blob/main/Backdoor-Google-AI-Studio-06-26-2026_08_54_PM.png))
 
 ##  Project Overview
 Backdoor is an AI-powered Web3 security assistant built specifically for the Sui ecosystem. It empowers users to proactively scan for smart contract vulnerabilities and risky token approvals before interacting with decentralized applications. If a breach has already occurred, Backdoor helps users analyze compromised wallets to pinpoint how the exploit happened and trace stolen assets across the network, turning reactive loss into proactive security.
